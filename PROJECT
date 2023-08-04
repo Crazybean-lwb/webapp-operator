@@ -1,0 +1,16 @@
+domain: kubebuilder.io
+layout:
+- go.kubebuilder.io/v3
+projectName: webapp-operator
+repo: operator-example
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kubebuilder.io
+  group: app
+  kind: EasyService
+  path: operator-example/api/v1
+  version: v1
+version: "3"
