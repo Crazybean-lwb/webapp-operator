@@ -1,0 +1,6 @@
+apiVersion: app.kubebuilder.io/v1
+kind: EasyService
+metadata:
+  name: easyservice-sample
+spec:
+  # TODO(user): Add fields here
